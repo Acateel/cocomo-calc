@@ -57,7 +57,7 @@ const CocomoCalc = ({}) => {
   }
 
   return (
-    <div className="flex items-center justify-around">
+    <div className="flex md:flex-row flex-col items-center justify-around">
       <div className="w-[170px] m-4">
         <Form {...form}>
           <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-2">
